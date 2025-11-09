@@ -1,0 +1,25 @@
+# ───────────────────────────────
+# KiCad project files
+# ───────────────────────────────
+*.kicad_prl
+*.bak
+*.tmp
+*.net
+*.xml
+*.dcm
+.autosave-*
+**/autosave/
+**/backup/
+
+# ───────────────────────────────
+# Output / build artifacts
+# ───────────────────────────────
+/outputs/
+/build/
+
+# ───────────────────────────────
+# OS-specific junk
+# ───────────────────────────────
+.DS_Store
+Thumbs.db
+
