@@ -1,0 +1,122 @@
+(footprint "SRN8040-3R3Y"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SRN8040 Series - Semi-shielded Power Inductors")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "b2f1e4d2-4020-4086-be39-5f58767736da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SRN8040-3R3Y"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f2c8ce96-a194-4f8b-a276-851aab2cdc1d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "806e6cda-2939-418d-bca1-dc0c7caa8656")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0e4c3f9-1304-4ad9-9d0c-63be7ad5a717")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.2 -4)
+		(end 1.2 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41da1d49-96f3-4553-be1c-da76a85306d9")
+	)
+	(fp_line
+		(start -1.2 4)
+		(end 1.2 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a826dc5a-18e5-4e76-b7aa-873cf45c36e3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "05d68820-f992-477a-870a-baabde2be598")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "42cbf904-1a84-4bd0-a991-9781b8f4a0ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.9 0)
+		(size 2.6 8.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ea0060f7-d36b-4fac-8c93-c1db5164afe4")
+	)
+	(pad "2" smd rect
+		(at 2.9 0)
+		(size 2.6 8.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bb5330e3-c21f-4d93-a680-552e2c5575a4")
+	)
+	(embedded_fonts no)
+	(model "SRN8040-3R3Y.stp"
+		(offset
+			(xyz 0 0 3.949999988)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

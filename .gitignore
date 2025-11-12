@@ -10,13 +10,14 @@
 .autosave-*
 **/autosave/
 **/backup/
+**/controlhub-backups/
 
 # ───────────────────────────────
 # Output / build artifacts
 # ───────────────────────────────
 /outputs/
 /build/
-
+/zips/
 # ───────────────────────────────
 # OS-specific junk
 # ───────────────────────────────
