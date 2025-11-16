@@ -24,3 +24,12 @@
 .DS_Store
 Thumbs.db
 
+# ───────────────────────────────
+# KiCad lock / temporary files
+# These files are created per-user/machine and should not be shared in git
+*.lck
+~*.lck
+# KiCad session/lock-like files
+*.kicad_sch.lck
+*.kicad_prl
+
