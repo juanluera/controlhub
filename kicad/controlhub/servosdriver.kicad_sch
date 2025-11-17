@@ -27,7 +27,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SOP65P640X110-28N"
+			(property "Footprint" "Drivers:SOP65P640X110-28N"
 				(at 26.67 -94.92 0)
 				(effects
 					(font
@@ -648,16 +648,16 @@
 	)
 	(symbol
 		(lib_id "Drivers:PCA9685PW")
-		(at 127 49.53 0)
+		(at 163.83 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "885475b1-516b-4340-a755-d8c137f6a278")
+		(uuid "78a5f2ca-a937-4e1d-8aa0-a764a181ad68")
 		(property "Reference" "IC1"
-			(at 142.24 41.91 0)
+			(at 179.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -665,15 +665,15 @@
 			)
 		)
 		(property "Value" "PCA9685PW"
-			(at 142.24 44.45 0)
+			(at 179.07 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X110-28N"
-			(at 153.67 144.45 0)
+		(property "Footprint" "Drivers:SOP65P640X110-28N"
+			(at 190.5 159.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,7 +683,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/PHGL/PHGL-S-A0000775254/PHGL-S-A0000775254-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0"
-			(at 153.67 244.45 0)
+			(at 190.5 259.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -693,7 +693,7 @@
 			)
 		)
 		(property "Description" "LED Display Drivers PCA9685PW/TSSOP28///STANDARD MARKING * IC\\'S TUBE -"
-			(at 127 49.53 0)
+			(at 163.83 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -702,7 +702,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 153.67 444.45 0)
+			(at 190.5 459.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -712,7 +712,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NXP"
-			(at 153.67 544.45 0)
+			(at 190.5 559.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -722,7 +722,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PCA9685PW"
-			(at 153.67 644.45 0)
+			(at 190.5 659.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,7 +732,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 153.67 744.45 0)
+			(at 190.5 759.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +742,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCA9685PW/?qs=wXXwzvj5w%252BEzwvjqh1LFVQ%3D%3D"
-			(at 153.67 844.45 0)
+			(at 190.5 859.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -752,7 +752,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 153.67 944.45 0)
+			(at 190.5 959.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -762,7 +762,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 153.67 1044.45 0)
+			(at 190.5 1059.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -771,89 +771,89 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "99e1f874-1437-4fbd-933a-107a06fdb4c2")
+		)
 		(pin "2"
-			(uuid "a6287f29-7fc4-4d18-b653-01f0998f7ed0")
+			(uuid "0867c927-4fc3-40c9-a452-621ef2e1d17f")
 		)
 		(pin "3"
-			(uuid "ba5bc876-720e-4984-ae80-c392ae6ed850")
+			(uuid "2ac5b3ff-4738-41fa-9356-0827096af64f")
 		)
 		(pin "4"
-			(uuid "c42f957b-39ff-4919-8eb1-e34f8fd02dca")
+			(uuid "092bccfc-a6c0-4aba-b4f1-808f6693bbc0")
 		)
 		(pin "5"
-			(uuid "f03097bd-b1d3-4b94-a146-f9c649176a5c")
+			(uuid "b47c0098-b52c-4233-961b-8f617fd161da")
 		)
 		(pin "6"
-			(uuid "ce49ab1e-f38d-44e7-a160-edb33e7e7f31")
+			(uuid "cacd6bce-313e-49d9-96d9-d3bbdccf23df")
 		)
 		(pin "7"
-			(uuid "7229f20a-6ffd-4f41-9e65-22b01fd5eace")
+			(uuid "8f3da8bf-20c4-4733-b984-ae5e7abdeeb9")
 		)
 		(pin "8"
-			(uuid "a7bd2d5b-5fcd-490b-b31b-8b42d444c833")
+			(uuid "aa9d5bb4-5954-450a-8f94-47d2d15d7263")
 		)
 		(pin "9"
-			(uuid "c6b29293-cbb1-4339-b6be-68579b032bf1")
+			(uuid "4886391f-381b-423e-ab36-32b635af17dd")
 		)
 		(pin "10"
-			(uuid "c7c7757d-5256-4bff-93a0-a9aa76f9fd33")
+			(uuid "81cf2ade-cd88-4d9b-8419-ae52e3ee1adb")
 		)
 		(pin "11"
-			(uuid "4c3a99d0-b6ce-40b7-955c-cbc32b0b28ba")
+			(uuid "0c88305c-167a-4759-bd5a-0d1b20e9b00e")
 		)
 		(pin "12"
-			(uuid "6ba4149d-13fe-457c-baa3-0eeea83e9cc2")
+			(uuid "65a3d2d7-4760-4494-9090-269938b4ad5c")
 		)
 		(pin "13"
-			(uuid "f4dd7ba7-b713-4cc9-bddd-31ec1aeed169")
+			(uuid "f39d4e92-4fc3-4595-8903-3113a825a7cc")
 		)
 		(pin "14"
-			(uuid "c46db5ec-4d22-4646-8eea-a2e4e416c5fa")
+			(uuid "479c0a22-0ab8-4080-aa35-44dc2e8e5da6")
 		)
 		(pin "28"
-			(uuid "e999ad9e-91b6-4ef6-abd0-cd84ab8eaea9")
+			(uuid "eecb53b6-10a3-4c82-9f8c-9ee25bb2cba3")
 		)
 		(pin "27"
-			(uuid "5ed589ee-4f0b-4c85-8b8f-aa50aa24912e")
+			(uuid "9ebfe2f0-d54d-4558-8333-bd21867ff3e6")
 		)
 		(pin "26"
-			(uuid "60aa52da-6522-4ebb-b1eb-3e42d1d043ac")
+			(uuid "ff1c714f-57b2-4305-a074-17cc5df5876c")
 		)
 		(pin "25"
-			(uuid "9321445b-d709-4d8c-962a-3f07f65d5233")
+			(uuid "6a885ea1-4a1c-40b8-9333-ff50674370f5")
 		)
 		(pin "24"
-			(uuid "59f8f1ed-2d11-4ca7-a940-df7a068668f7")
+			(uuid "005ef8f0-8859-4dff-a94f-00482748efce")
 		)
 		(pin "23"
-			(uuid "3bfd2850-1a95-4ada-80de-b568497e3ad4")
+			(uuid "e1c1b56c-c966-4b8e-9044-ef6ed7d24cd5")
 		)
 		(pin "22"
-			(uuid "763f3f8c-cd6c-42bf-83d9-434d8001e2a3")
+			(uuid "a5f8625c-2ad9-4d5c-844d-79b67942b03b")
 		)
 		(pin "21"
-			(uuid "d142303a-acd8-4b83-92c0-b90b17dbd1a1")
+			(uuid "04032211-e85e-4c4c-9845-87974fcb2afc")
 		)
 		(pin "20"
-			(uuid "3b6e5076-86d3-4628-9fad-2c264e97d27a")
+			(uuid "8ed62d18-5956-4bbd-a8c7-103d0b01b393")
 		)
 		(pin "19"
-			(uuid "1474b4c5-eec4-423c-b75b-c15ee015a6a9")
+			(uuid "98949113-d635-4980-9355-0de05cbc7531")
 		)
 		(pin "18"
-			(uuid "86647904-49e0-4ae0-91c0-692ea052ed04")
+			(uuid "a862c664-451e-443d-895b-d6d05a33e00e")
 		)
 		(pin "17"
-			(uuid "aa0e2216-78a3-4952-8c84-836d3c135d8c")
+			(uuid "a8426c2b-d01d-45bd-9eb1-77678d179413")
 		)
 		(pin "16"
-			(uuid "a6215262-5ab9-4bd4-a416-a7a85f10a86c")
+			(uuid "f5b514bf-6157-4ebf-a423-d23b75d4dd90")
 		)
 		(pin "15"
-			(uuid "77ce4fd2-04f4-4e12-8378-8d494cd8b86c")
-		)
-		(pin "1"
-			(uuid "4eb5f759-7bb1-4293-8b52-4a29340ceb76")
+			(uuid "3a8288f8-b29a-4879-9172-43ab556ec9c1")
 		)
 		(instances
 			(project ""
