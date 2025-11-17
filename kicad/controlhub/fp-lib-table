@@ -6,4 +6,5 @@
   (lib (name "Capacitors")(type "KiCad")(uri "/Users/j_luera/Documents/Angel Profesional/controlhub/libs/footprints/Capacitors.pretty")(options "")(descr ""))
   (lib (name "Resistors")(type "KiCad")(uri "/Users/j_luera/Documents/Angel Profesional/controlhub/libs/footprints/Resistors.pretty")(options "")(descr ""))
   (lib (name "Inductors")(type "KiCad")(uri "/Users/j_luera/Documents/Angel Profesional/controlhub/libs/footprints/Inductors.pretty")(options "")(descr ""))
+  (lib (name "Drivers")(type "KiCad")(uri "/Users/j_luera/Documents/Angel Profesional/controlhub/libs/footprints/Drivers.pretty")(options "")(descr ""))
 )

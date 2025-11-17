@@ -13,6 +13,90 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 63.5 102.87)
+		(size 29.21 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14ea8e61-8e65-415a-aef4-444b25cd536e")
+		(property "Sheetname" "Indicators"
+			(at 63.5 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Indicators.kicad_sch"
+			(at 63.5 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controlhub"
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 85.09)
+		(size 31.75 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64921508-3e9f-434f-afb3-8d277d43284b")
+		(property "Sheetname" "MCU"
+			(at 156.21 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 156.21 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controlhub"
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 66.04 140.97)
 		(size 35.56 22.86)
 		(exclude_from_sim no)
@@ -28,7 +112,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bc3e1279-1980-4531-9aca-cf1688bab914")
-		(property "Sheetname" "Buck Converter"
+		(property "Sheetname" "Regulator"
 			(at 66.04 140.2584 0)
 			(effects
 				(font
@@ -37,7 +121,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "buck.kicad_sch"
+		(property "Sheetfile" "regulator.kicad_sch"
 			(at 66.04 164.4146 0)
 			(effects
 				(font
@@ -50,6 +134,48 @@
 			(project "controlhub"
 				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 34.29)
+		(size 24.13 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bfe440fe-d38b-4576-9113-238cb7990e5b")
+		(property "Sheetname" "ServosDriver"
+			(at 233.68 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servosdriver.kicad_sch"
+			(at 233.68 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controlhub"
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665"
+					(page "5")
 				)
 			)
 		)

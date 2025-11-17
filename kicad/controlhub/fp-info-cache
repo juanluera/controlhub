@@ -1,4 +1,4 @@
-26788730098511197
+26790493375530060
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61417,6 +61417,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+Drivers
+SOP65P640X110-28N
+TSSOP28 height 1.1
+Integrated Circuit
+0
+28
+28
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -93708,6 +93715,13 @@ Potentiometer vertical vishay
 0
 3
 3
+PowerICs
+LMR33630A
+
+LMR33630ARNXR 
+0
+12
+12
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -97169,6 +97183,13 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 Resistors
 CRCW0402200KFKED
 CRCW0402
+Resistor
+0
+2
+2
+Resistors
+RESC1608X55N
+RC0603
 Resistor
 0
 2
