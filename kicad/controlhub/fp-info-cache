@@ -1,4 +1,4 @@
-26790493375530060
+26784952635502725
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61417,13 +61417,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-Drivers
-SOP65P640X110-28N
-TSSOP28 height 1.1
-Integrated Circuit
-0
-28
-28
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -70958,6 +70951,27 @@ module pcb
 0
 7
 7
+Mosfets
+MICRO3_SOT23_INF
+
+IRLML6401TRPBF 
+0
+3
+3
+Mosfets
+MICRO3_SOT23_INF-L
+
+IRLML6401TRPBF 
+0
+3
+3
+Mosfets
+MICRO3_SOT23_INF-M
+
+IRLML6401TRPBF 
+0
+3
+3
 Motors
 Vybronics_VZ30C1T8219732L
 Vibration motor, 2.3-3.2V, 14000rpm, 0.7G, https://www.vybronics.com/wp-content/uploads/datasheet-files/Vybronics-VZ30C1T8219732L-datasheet.pdf
