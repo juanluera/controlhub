@@ -1,4 +1,4 @@
-26784952635502725
+26788479613493328
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6736,6 +6736,13 @@ Capacitor
 Capacitors
 CAPC3216X180N
 GRM31_0.20 L=3.2mm W=1.6mm T=1.6mm
+Capacitor
+0
+2
+2
+Capacitors
+GRM15x
+GRM15x
 Capacitor
 0
 2
@@ -97197,6 +97204,13 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 Resistors
 CRCW0402200KFKED
 CRCW0402
+Resistor
+0
+2
+2
+Resistors
+RESC1005X40N
+RC0402
 Resistor
 0
 2

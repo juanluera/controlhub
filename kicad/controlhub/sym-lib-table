@@ -6,4 +6,5 @@
   (lib (name "Inductors")(type "KiCad")(uri "${KIPRJMOD}/../../libs/symbols/Inductors.kicad_sym")(options "")(descr ""))
   (lib (name "Drivers")(type "KiCad")(uri "${KIPRJMOD}/../../libs/symbols/Drivers.kicad_sym")(options "")(descr ""))
   (lib (name "Mosfets")(type "KiCad")(uri "${KIPRJMOD}/../../libs/symbols/Mosfets.kicad_sym")(options "")(descr ""))
+  (lib (name "Pins")(type "KiCad")(uri "C:/Users/Angel/projects/controlhub/libs/symbols/Pins.kicad_sym")(options "")(descr ""))
 )
