@@ -5,3 +5,30 @@
 *.png  filter=lfs diff=lfs merge=lfs -text
 *.jpg  filter=lfs diff=lfs merge=lfs -text
 
+# Auto-normalize text files (recommended for mixed macOS/Windows editors)
+* text=auto
+
+# KiCad files - treat as text so Git normalizes line endings across platforms
+*.kicad_sch    text
+*.kicad_pcb    text
+*.kicad_sym    text
+*.kicad_mod    text
+*.kicad_pro    text
+*.kicad_prl    text
+*.dcm          text
+
+# Common human-readable files
+*.md           text
+*.txt          text
+*.json         text
+*.yml          text
+*.yaml         text
+*.xml          text
+
+# Keep 3D/binary files as binary (no EOL normalization)
+*.stp          binary
+*.step         binary
+*.wrl          binary
+*.stl          binary
+*.kicad_wks    binary
+
