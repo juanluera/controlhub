@@ -629,6 +629,10 @@
     [
       "bfe440fe-d38b-4576-9113-238cb7990e5b",
       "ServosDriver"
+    ],
+    [
+      "4fbfd26d-56f4-4375-bd3e-d29fbaad9eed",
+      "BuckConverter"
     ]
   ],
   "text_variables": {}
