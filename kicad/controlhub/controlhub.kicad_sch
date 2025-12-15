@@ -55,7 +55,7 @@
 		)
 	)
 	(sheet
-		(at 71.12 52.07)
+		(at 134.62 38.1)
 		(size 35.56 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -71,7 +71,7 @@
 		)
 		(uuid "4fbfd26d-56f4-4375-bd3e-d29fbaad9eed")
 		(property "Sheetname" "BuckConverter"
-			(at 71.12 51.3584 0)
+			(at 134.62 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80,7 +80,7 @@
 			)
 		)
 		(property "Sheetfile" "BuckConverter.kicad_sch"
-			(at 71.12 72.9746 0)
+			(at 134.62 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
