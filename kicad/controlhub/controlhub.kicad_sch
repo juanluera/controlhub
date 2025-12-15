@@ -55,6 +55,48 @@
 		)
 	)
 	(sheet
+		(at 71.12 52.07)
+		(size 35.56 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4fbfd26d-56f4-4375-bd3e-d29fbaad9eed")
+		(property "Sheetname" "BuckConverter"
+			(at 71.12 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BuckConverter.kicad_sch"
+			(at 71.12 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controlhub"
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 77.47 41.91)
 		(size 26.67 15.24)
 		(exclude_from_sim no)

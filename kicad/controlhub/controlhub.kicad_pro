@@ -446,6 +446,7 @@
       "wire_dangling": "error"
     }
   },
+  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -597,7 +598,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "Regulator",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -609,43 +610,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "78f9b8b9-94ed-46bb-ab2b-797c156bf665",
-      "Root"
-    ],
-    [
-      "bc3e1279-1980-4531-9aca-cf1688bab914",
-      "Regulator"
-    ],
-    [
-      "14ea8e61-8e65-415a-aef4-444b25cd536e",
-      "Indicators"
-    ],
-    [
-      "64921508-3e9f-434f-afb3-8d277d43284b",
-      "MCU"
-    ],
-    [
-      "bfe440fe-d38b-4576-9113-238cb7990e5b",
-      "ServosDriver"
-    ],
-    [
-      "5fdbac9f-f658-4a00-a70d-cfad4fe5961e",
-      "MotorDriver"
-    ],
-    [
-      "be13a64d-3893-4854-b321-104e725ec0f7",
-      "MotorDriver1"
-    ],
-    [
-      "69943119-d6be-40ce-897b-194a2d80c196",
-      "MotorDriver2"
-    ],
-    [
-      "eee69926-6afc-49f8-acf5-10d5f35a93ff",
-      "MotorDriver3"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
