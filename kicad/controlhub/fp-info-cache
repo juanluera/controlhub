@@ -1,4 +1,4 @@
-26788479613493328
+26797299675592155
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6736,6 +6736,13 @@ Capacitor
 Capacitors
 CAPC3216X180N
 GRM31_0.20 L=3.2mm W=1.6mm T=1.6mm
+Capacitor
+0
+2
+2
+Capacitors
+CAPPRD200W52D500H1250
+Radial
 Capacitor
 0
 2
@@ -59401,6 +59408,20 @@ ceramic
 0
 3
 3
+DevKits
+ESP32S3DevKitC1N32R16V
+ESP32-S3-DevKitC-1-N32R16V-1
+Undefined or Miscellaneous
+0
+44
+44
+DevKits
+XCVR_ESP32-S3-DEVKITC-1-N8R2
+
+
+0
+44
+44
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -61424,6 +61445,20 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+Drivers
+QFN50P300X300X80-17N-D
+RTE0016C
+Integrated Circuit
+0
+17
+17
+Drivers
+SOP65P640X110-28N
+TSSOP28 height 1.1
+Integrated Circuit
+0
+28
+28
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters

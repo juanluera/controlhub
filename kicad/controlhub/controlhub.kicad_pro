@@ -629,6 +629,22 @@
     [
       "bfe440fe-d38b-4576-9113-238cb7990e5b",
       "ServosDriver"
+    ],
+    [
+      "5fdbac9f-f658-4a00-a70d-cfad4fe5961e",
+      "MotorDriver"
+    ],
+    [
+      "be13a64d-3893-4854-b321-104e725ec0f7",
+      "MotorDriver1"
+    ],
+    [
+      "69943119-d6be-40ce-897b-194a2d80c196",
+      "MotorDriver2"
+    ],
+    [
+      "eee69926-6afc-49f8-acf5-10d5f35a93ff",
+      "MotorDriver3"
     ]
   ],
   "text_variables": {}
