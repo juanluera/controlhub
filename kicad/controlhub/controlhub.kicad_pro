@@ -616,6 +616,10 @@
       "Root"
     ],
     [
+      "4e62eed8-7982-494d-84c7-1f228c694b02",
+      "MotorDriver1"
+    ],
+    [
       "14ea8e61-8e65-415a-aef4-444b25cd536e",
       "Indicators"
     ],
@@ -634,6 +638,14 @@
     [
       "5fdbac9f-f658-4a00-a70d-cfad4fe5961e",
       "MotorDriver"
+    ],
+    [
+      "e62e7474-07ed-4c6a-93a3-4fed7717a271",
+      "MotorDriver2"
+    ],
+    [
+      "7236a1cd-749d-4037-842f-028068d30725",
+      "MotorDriver3"
     ]
   ],
   "text_variables": {}

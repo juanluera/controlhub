@@ -5,6 +5,430 @@
 	(uuid "9894220c-a9e0-44fa-bf81-956055b47995")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Capacitors:CC0603KRX7R9BB472"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CC0603KRX7R9BB472"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Capacitors:CAPC1608X90N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/CC0603KRX7R9BB472.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "YAGEO - CC0603KRX7R9BB472 - SMD Multilayer Ceramic Capacitor, 4700 pF, 50 V, 0603 [1608 Metric], +/- 10%, X7R, CC Series"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CC0603KRX7R9BB472"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "603-C0603KRX7R9BB472"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/CC0603KRX7R9BB472?qs=AgBp2OyFlx8KimR0sSBPMg%3D%3D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "CC0603KRX7R9BB472"
+				(at 8.89 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cc0603krx7r9bb472/yageo?region=nac"
+				(at 8.89 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CC0603KRX7R9BB472_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Capacitors:CGA3E2X7R1H104K080AA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CGA3E2X7R1H104K080AA"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Capacitors:CAPC1608X90N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/14e9/0900766b814e9125.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=0.1uF, LxWxT:1.6x0.8x0.8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TDK"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CGA3E2X7R1H104K080AA"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "810-CGA3E2X7R1H104K"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3E2X7R1H104K080AA?qs=NRhsANhppD%2Fge2a869G9Fg%3D%3D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "CGA3E2X7R1H104K080AA"
+				(at 8.89 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cga3e2x7r1h104k080aa/tdk?utm_currency=USD&region=europe"
+				(at 8.89 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CGA3E2X7R1H104K080AA_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DevKits:ESP32-S3-DevKitC-1-N32R16V"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -933,6 +1357,356 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Resistors:RC0402FR-07100RL"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RC0402FR-07100RL"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Resistors:RESC1005X40N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6_r.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "YAGEO (PHYCOMP) - RC0402FR-07100RL - RES, THICK FILM, 100R, 1%, 0.0625W, 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.4"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RC0402FR-07100RL"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "603-RC0402FR-07100RL"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0402FR-07100RL?qs=V1yeUXFNrknwaJOOZ4yDtg%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "RC0402FR-07100RL"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0402fr-07100rl/yageo"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RC0402FR-07100RL_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Resistors:RC0603FR-0710KL"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RC0603FR-0710KL"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Resistors:RESC1608X55N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 10k"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "603-RC0603FR-0710KL"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "RC0603FR-0710KL"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-0710kl/yageo?region=nac"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-0710KL_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Resistors:RC0603JR-072K2L"
 			(pin_names
 				(hide yes)
@@ -1108,6 +1882,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers
@@ -1235,14 +2110,90 @@
 		)
 	)
 	(junction
-		(at 40.64 55.88)
+		(at 72.39 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b961d9e-a92b-43ca-b1d8-f3aec5fb908c")
+	)
+	(junction
+		(at 40.64 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "635f04a3-5465-42cd-aa8e-1028543eb032")
 	)
+	(junction
+		(at 57.15 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a5080c4-b885-44d4-a58e-7ef5cafc796f")
+	)
+	(junction
+		(at 57.15 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaafefed-e9e8-4391-99ef-133b830f8149")
+	)
+	(junction
+		(at 57.15 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d17e4e95-0e80-4a02-aa55-0fccacb1c62f")
+	)
+	(junction
+		(at 66.04 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb8e2147-c5dc-4527-9442-6c89e3976c25")
+	)
+	(junction
+		(at 78.74 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb6f7a07-3e96-4ec6-a0e5-bf4e76f18e3b")
+	)
 	(wire
 		(pts
-			(xy 35.56 77.47) (xy 25.4 77.47)
+			(xy 54.61 99.06) (xy 57.15 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4cb1d7-2499-4893-8a6c-ab69a302c75f")
+	)
+	(wire
+		(pts
+			(xy 57.15 114.3) (xy 57.15 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c29f61b-8e5b-4da8-91e5-e962fb5cd13e")
+	)
+	(wire
+		(pts
+			(xy 57.15 109.22) (xy 57.15 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129fb9ec-6021-442b-80e8-80bb21435ca9")
+	)
+	(wire
+		(pts
+			(xy 90.17 72.39) (xy 90.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15556a22-ab04-43eb-98f2-adb28b7fa0af")
+	)
+	(wire
+		(pts
+			(xy 35.56 46.99) (xy 25.4 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1252,7 +2203,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 55.88) (xy 45.72 55.88)
+			(xy 25.4 104.14) (xy 36.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed81804-d361-41d4-9953-da1572067190")
+	)
+	(wire
+		(pts
+			(xy 40.64 25.4) (xy 45.72 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1262,7 +2223,27 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 59.69) (xy 45.72 55.88)
+			(xy 154.94 63.5) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2267bdc7-3390-439d-884d-ce7785323edf")
+	)
+	(wire
+		(pts
+			(xy 54.61 104.14) (xy 57.15 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24223bb6-631d-4c93-8246-192dc6cdf2f6")
+	)
+	(wire
+		(pts
+			(xy 45.72 29.21) (xy 45.72 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1272,13 +2253,123 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 55.88) (xy 35.56 59.69)
+			(xy 24.13 72.39) (xy 27.94 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321e93f6-d14b-4f38-a83f-399609421e34")
+	)
+	(wire
+		(pts
+			(xy 154.94 60.96) (xy 165.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3986d92b-3b8a-4363-b7a8-c9b5dc73581b")
+	)
+	(wire
+		(pts
+			(xy 27.94 57.15) (xy 24.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e015a26-4923-460b-a7c0-76d3a61a0a8e")
+	)
+	(wire
+		(pts
+			(xy 35.56 25.4) (xy 35.56 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3ea8b049-6a88-4632-8a22-ff388b1a37bc")
+	)
+	(wire
+		(pts
+			(xy 57.15 99.06) (xy 57.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42788107-f0f8-4471-9ce4-f5f0e6c1381b")
+	)
+	(wire
+		(pts
+			(xy 36.83 99.06) (xy 25.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451a9011-3762-4ff8-a36d-e549494fc9a9")
+	)
+	(wire
+		(pts
+			(xy 154.94 68.58) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627b85d1-6ade-4a1c-b2e0-7025122f0bdf")
+	)
+	(wire
+		(pts
+			(xy 54.61 109.22) (xy 57.15 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb835e7-e8fd-47b7-bfde-0d03f26edc9e")
+	)
+	(wire
+		(pts
+			(xy 78.74 85.09) (xy 90.17 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f051ee-94eb-49fa-aef8-6474c8d3054c")
+	)
+	(wire
+		(pts
+			(xy 53.34 72.39) (xy 45.72 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88dfc497-93c1-467a-887b-41c8e8906fd8")
+	)
+	(wire
+		(pts
+			(xy 45.72 67.31) (xy 66.04 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d25239-4893-4ff8-971e-25ab1aa2e645")
+	)
+	(wire
+		(pts
+			(xy 57.15 104.14) (xy 57.15 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96cf55d3-ffcc-4936-b051-8f7be71cda3f")
 	)
 	(wire
 		(pts
@@ -1292,7 +2383,57 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 77.47) (xy 45.72 81.28)
+			(xy 66.04 67.31) (xy 66.04 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d282d4-e430-4aa1-8700-a506923e69ac")
+	)
+	(wire
+		(pts
+			(xy 78.74 62.23) (xy 78.74 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b6ff95-5585-41de-902e-d449aff06390")
+	)
+	(wire
+		(pts
+			(xy 72.39 85.09) (xy 78.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad507d16-9705-4b0d-8c0c-c7caacba0451")
+	)
+	(wire
+		(pts
+			(xy 24.13 67.31) (xy 27.94 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ad2490-6f65-4d88-8268-a03c5ba26667")
+	)
+	(wire
+		(pts
+			(xy 116.84 50.8) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c1e323-4949-4efd-ab7f-27788d02963a")
+	)
+	(wire
+		(pts
+			(xy 45.72 46.99) (xy 45.72 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1302,7 +2443,27 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 81.28) (xy 25.4 81.28)
+			(xy 45.72 62.23) (xy 78.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7eca08-eb15-483b-9190-dcf000a546b9")
+	)
+	(wire
+		(pts
+			(xy 90.17 57.15) (xy 45.72 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb86fce-ce5b-4f10-a737-46f12e2bfd03")
+	)
+	(wire
+		(pts
+			(xy 45.72 50.8) (xy 25.4 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1312,7 +2473,47 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 55.88) (xy 35.56 55.88)
+			(xy 116.84 48.26) (xy 127 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f9064f-6e20-458b-8094-92e77717c831")
+	)
+	(wire
+		(pts
+			(xy 25.4 109.22) (xy 36.83 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37d7efd-847c-4b60-ad3a-196eaef471d8")
+	)
+	(wire
+		(pts
+			(xy 54.61 114.3) (xy 57.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c1760c-f25b-4bf6-933f-8b285566b07c")
+	)
+	(wire
+		(pts
+			(xy 66.04 85.09) (xy 72.39 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7bce369-30ac-4da1-a94d-8b8660eb860f")
+	)
+	(wire
+		(pts
+			(xy 40.64 25.4) (xy 35.56 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1330,6 +2531,66 @@
 		)
 		(uuid "dc787e7d-825c-47c7-9130-73a316f13806")
 	)
+	(wire
+		(pts
+			(xy 24.13 62.23) (xy 27.94 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c4c137-a2f6-4df0-bc18-e28c16debbb5")
+	)
+	(wire
+		(pts
+			(xy 53.34 85.09) (xy 66.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41741e0-840a-4f40-8e05-82abce663d25")
+	)
+	(wire
+		(pts
+			(xy 25.4 114.3) (xy 36.83 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f423073f-b730-4cd0-917f-c77fa688ea7f")
+	)
+	(wire
+		(pts
+			(xy 154.94 66.04) (xy 165.1 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a86c0a-0405-41dc-9087-20cf0ca78470")
+	)
+	(wire
+		(pts
+			(xy 116.84 45.72) (xy 127 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e85dfd-0b4f-4381-b2c0-4d129bae76f4")
+	)
+	(wire
+		(pts
+			(xy 116.84 53.34) (xy 127 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe11ec65-966d-4790-b592-11154916ab4f")
+	)
 	(label "SDA"
 		(at 120.65 66.04 0)
 		(effects
@@ -1340,8 +2601,58 @@
 		)
 		(uuid "0a3fc744-981c-412e-8b2a-1d9f9cdcf8db")
 	)
+	(label "RC_OUT_1"
+		(at 165.1 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "143d8ce5-7f4d-4a1b-b58a-2ec7490a0a60")
+	)
+	(label "IPROPI_3"
+		(at 116.84 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15b521e7-cc2f-4748-b2f6-e8f92c95eefb")
+	)
+	(label "RC_OUT_2"
+		(at 26.67 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16a96d2f-687f-495a-a918-38b11517039b")
+	)
+	(label "IPROPI_4"
+		(at 116.84 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23e94725-bef3-4686-81d1-f5db45637ba6")
+	)
+	(label "RC_OUT_4"
+		(at 165.1 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b0dbe87-5234-4b6a-8c29-cfecdb3771be")
+	)
 	(label "SCL"
-		(at 26.67 77.47 0)
+		(at 26.67 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1360,8 +2671,18 @@
 		)
 		(uuid "430c9c6d-8503-4424-ab8d-2e3925c1985d")
 	)
+	(label "RC_OUT_3"
+		(at 26.67 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5210e9a5-b4dd-4301-9147-cbb0ac15f2ea")
+	)
 	(label "SDA"
-		(at 27.94 81.28 0)
+		(at 27.94 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1370,9 +2691,109 @@
 		)
 		(uuid "64a17cc3-6aa3-440a-a03a-7fa6262a37fa")
 	)
+	(label "IPROPI_2"
+		(at 46.99 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67e5fa10-e435-4534-a5c5-eb8d1f479c27")
+	)
+	(label "RC_OUT_4"
+		(at 26.67 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85d26adb-0df4-418a-9467-61c0a3665072")
+	)
+	(label "IPROPI_4"
+		(at 46.99 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94ffcf1d-9e08-4eae-9dcd-25e047998ef9")
+	)
+	(label "IPROPI_1"
+		(at 46.99 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a14f38ee-9297-4b03-94f1-24b2e71cc18e")
+	)
+	(label "RC_OUT_3"
+		(at 165.1 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a975b2f6-6a88-4ada-8f78-c1a0ec0bf534")
+	)
+	(label "RC_OUT_1"
+		(at 26.67 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae5c9d81-ff25-4561-ac78-2cefaade9bea")
+	)
+	(label "RC_OUT_2"
+		(at 165.1 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb6a67ec-b74f-4d7a-8cea-8431d7386120")
+	)
+	(label "IPROPI_2"
+		(at 116.84 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf63c192-4a74-4125-8bfa-6a1905fd2c4e")
+	)
+	(label "IPROPI_1"
+		(at 116.84 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0fa21ce-d10d-46da-95e6-c8164299f5d0")
+	)
+	(label "IPROPI_3"
+		(at 46.99 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee32627a-68ee-4053-a9d4-82542c03173b")
+	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 25.4 81.28 180)
+		(at 25.4 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1382,7 +2803,51 @@
 		)
 		(uuid "24c4040d-0535-4160-a008-f789f745a02b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.5484 81.28 0)
+			(at 18.5484 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nSLEEP"
+		(shape output)
+		(at 25.4 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cf3ffa0-5ffb-4657-8473-198b5157ea6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.9934 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nFAULT"
+		(shape input)
+		(at 25.4 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad6c160b-9f52-4961-b474-c16be4ab0035")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.4166 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +2859,7 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 25.4 77.47 180)
+		(at 25.4 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1404,7 +2869,7 @@
 		)
 		(uuid "b7ad3b28-5d38-4cbe-b789-9804063f35a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.5614 77.47 0)
+			(at 19.5614 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,9 +2879,97 @@
 			)
 		)
 	)
+	(hierarchical_label "RC_OUT_3"
+		(shape input)
+		(at 25.4 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "060a493f-135a-49c5-b41e-74920fec7371")
+	)
+	(hierarchical_label "RC_OUT_1"
+		(shape input)
+		(at 25.4 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1afa28c2-0b54-49df-904a-0d8965ddd795")
+	)
+	(hierarchical_label "RC_OUT_4"
+		(shape input)
+		(at 25.4 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43bf3ed5-f041-4e28-b226-090dedefbd5d")
+	)
+	(hierarchical_label "RC_OUT_2"
+		(shape input)
+		(at 25.4 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ec96e20-da0e-4638-a1bc-676e4f150285")
+	)
+	(hierarchical_label "IPROPI_3"
+		(shape input)
+		(at 24.13 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89a40f37-fe37-4b6b-8d57-53e860f0fc59")
+	)
+	(hierarchical_label "IPROPI_4"
+		(shape input)
+		(at 24.13 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4195bac-39c7-47f1-b9ed-14b841880535")
+	)
+	(hierarchical_label "IPROPI_1"
+		(shape input)
+		(at 24.13 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef4ff02c-fec2-40b6-9212-66b5c6437851")
+	)
+	(hierarchical_label "IPROPI_2"
+		(shape input)
+		(at 24.13 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f61a920f-c055-404c-a107-2a00f0898048")
+	)
 	(symbol
 		(lib_id "Resistors:RC0603JR-072K2L")
-		(at 45.72 59.69 270)
+		(at 45.72 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1425,7 +2978,7 @@
 		(fields_autoplaced yes)
 		(uuid "08806fa5-1617-4d0b-81ed-d5121c24cea8")
 		(property "Reference" "R14"
-			(at 48.26 67.3099 90)
+			(at 48.26 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +2987,7 @@
 			)
 		)
 		(property "Value" "RC0603JR-072K2L"
-			(at 48.26 69.8499 90)
+			(at 48.26 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +2997,7 @@
 			)
 		)
 		(property "Footprint" "Resistors:RESC1608X55N"
-			(at -50.47 73.66 0)
+			(at -50.47 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +3007,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
-			(at -150.47 73.66 0)
+			(at -150.47 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +3017,7 @@
 			)
 		)
 		(property "Description" "RESISTOR, 0603 2.2K Ohms +/-5% 1/10 W"
-			(at 45.72 59.69 0)
+			(at 45.72 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +3026,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at -350.47 73.66 0)
+			(at -350.47 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +3036,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at -450.47 73.66 0)
+			(at -450.47 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,7 +3046,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603JR-072K2L"
-			(at -550.47 73.66 0)
+			(at -550.47 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,7 +3056,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603JR-072K2L"
-			(at -650.47 73.66 0)
+			(at -650.47 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +3066,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603JR-072K2L?qs=%2F9ZTgpVJnN4N31C%252B33L1Sw%3D%3D"
-			(at -750.47 73.66 0)
+			(at -750.47 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,7 +3076,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RC0603JR-072K2L"
-			(at -850.47 73.66 0)
+			(at -850.47 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,7 +3086,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603jr-072k2l/yageo"
-			(at -950.47 73.66 0)
+			(at -950.47 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,16 +3111,583 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 40.64 55.88 0)
+		(lib_id "Capacitors:CGA3E2X7R1H104K080AA")
+		(at 78.74 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8d363710-ccd3-4cc6-a166-329bfb1a379c")
-		(property "Reference" "#PWR034"
-			(at 40.64 59.69 0)
+		(fields_autoplaced yes)
+		(uuid "10ad86b4-e6f1-4315-857e-5712d42ccec4")
+		(property "Reference" "C9"
+			(at 82.55 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CGA3E2X7R1H104K080AA"
+			(at 83.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitors:CAPC1608X90N"
+			(at -17.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/14e9/0900766b814e9125.pdf"
+			(at -117.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=0.1uF, LxWxT:1.6x0.8x0.8mm"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at -317.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at -417.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104K080AA"
+			(at -517.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-CGA3E2X7R1H104K"
+			(at -617.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3E2X7R1H104K080AA?qs=NRhsANhppD%2Fge2a869G9Fg%3D%3D"
+			(at -717.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CGA3E2X7R1H104K080AA"
+			(at -817.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cga3e2x7r1h104k080aa/tdk?utm_currency=USD&region=europe"
+			(at -917.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b97fe78-58a6-4f67-8a93-683b5dd64cf8")
+		)
+		(pin "1"
+			(uuid "36c93db4-567e-4517-8c20-024f069485b6")
+		)
+		(instances
+			(project ""
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665/64921508-3e9f-434f-afb3-8d277d43284b"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:CGA3E2X7R1H104K080AA")
+		(at 66.04 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cb3d7c3-f81a-4378-a1dd-5c2de291c758")
+		(property "Reference" "C10"
+			(at 69.85 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CGA3E2X7R1H104K080AA"
+			(at 71.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitors:CAPC1608X90N"
+			(at -30.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/14e9/0900766b814e9125.pdf"
+			(at -130.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=0.1uF, LxWxT:1.6x0.8x0.8mm"
+			(at 66.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at -330.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at -430.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104K080AA"
+			(at -530.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-CGA3E2X7R1H104K"
+			(at -630.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3E2X7R1H104K080AA?qs=NRhsANhppD%2Fge2a869G9Fg%3D%3D"
+			(at -730.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CGA3E2X7R1H104K080AA"
+			(at -830.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cga3e2x7r1h104k080aa/tdk?utm_currency=USD&region=europe"
+			(at -930.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bdb0cb1-c22a-4b92-af21-7aebd1c3e745")
+		)
+		(pin "2"
+			(uuid "e4062c9b-c953-4b2e-8c04-ec90ebc876f2")
+		)
+		(instances
+			(project ""
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665/64921508-3e9f-434f-afb3-8d277d43284b"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:CGA3E2X7R1H104K080AA")
+		(at 53.34 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "714ed8a6-a448-4442-8d95-895659d082d4")
+		(property "Reference" "C11"
+			(at 57.15 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CGA3E2X7R1H104K080AA"
+			(at 58.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitors:CAPC1608X90N"
+			(at -42.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/14e9/0900766b814e9125.pdf"
+			(at -142.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=0.1uF, LxWxT:1.6x0.8x0.8mm"
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at -342.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at -442.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104K080AA"
+			(at -542.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-CGA3E2X7R1H104K"
+			(at -642.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3E2X7R1H104K080AA?qs=NRhsANhppD%2Fge2a869G9Fg%3D%3D"
+			(at -742.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CGA3E2X7R1H104K080AA"
+			(at -842.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cga3e2x7r1h104k080aa/tdk?utm_currency=USD&region=europe"
+			(at -942.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7bcd73d-0acb-4814-83e8-36355e333e50")
+		)
+		(pin "1"
+			(uuid "3304a474-d68e-4f7b-89fa-62219a663559")
+		)
+		(instances
+			(project ""
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665/64921508-3e9f-434f-afb3-8d277d43284b"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:RC0603FR-0710KL")
+		(at 36.83 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77ec6747-f748-44fe-b64d-108d8d5485e7")
+		(property "Reference" "R22"
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0603FR-0710KL"
+			(at 45.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors:RESC1608X55N"
+			(at 50.8 195.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+			(at 50.8 295.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 10k"
+			(at 36.83 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 50.8 495.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 50.8 595.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
+			(at 50.8 695.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-0710KL"
+			(at 50.8 795.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D"
+			(at 50.8 895.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0603FR-0710KL"
+			(at 50.8 995.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-0710kl/yageo?region=nac"
+			(at 50.8 1095.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3172690a-21fc-4c0b-b6ad-557c6f049d63")
+		)
+		(pin "1"
+			(uuid "242bad93-eea2-48c2-9b2c-bae88381fec0")
+		)
+		(instances
+			(project ""
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665/64921508-3e9f-434f-afb3-8d277d43284b"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 57.15 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b1bfe1b-3188-41d7-990a-fe2662292500")
+		(property "Reference" "#PWR058"
+			(at 57.15 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,7 +3696,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 40.64 51.816 0)
+			(at 57.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +3704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 55.88 0)
+			(at 57.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,7 +3713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 55.88 0)
+			(at 57.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +3722,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 40.64 55.88 0)
+			(at 57.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ea64840-2912-4f66-97b8-d8714e9530c6")
+		)
+		(instances
+			(project ""
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665/64921508-3e9f-434f-afb3-8d277d43284b"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 40.64 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d363710-ccd3-4cc6-a166-329bfb1a379c")
+		(property "Reference" "#PWR034"
+			(at 40.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 40.64 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 40.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,6 +3802,1194 @@
 			(project ""
 				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665/64921508-3e9f-434f-afb3-8d277d43284b"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:RC0603FR-0710KL")
+		(at 36.83 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c8c410a-eb17-4a5e-8e76-21902d46f1f0")
+		(property "Reference" "R23"
+			(at 45.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0603FR-0710KL"
+			(at 45.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors:RESC1608X55N"
+			(at 50.8 200.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+			(at 50.8 300.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 10k"
+			(at 36.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 50.8 500.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 50.8 600.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
+			(at 50.8 700.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-0710KL"
+			(at 50.8 800.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D"
+			(at 50.8 900.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0603FR-0710KL"
+			(at 50.8 1000.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-0710kl/yageo?region=nac"
+			(at 50.8 1100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76e185b9-6d4d-41e8-b6c5-de71399158ac")
+		)
+		(pin "2"
+			(uuid "e1867c0b-e81d-40c9-80f8-9fc7e1527bc8")
+		)
+		(instances
+			(project ""
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665/64921508-3e9f-434f-afb3-8d277d43284b"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acee136b-234b-4b7d-b63b-422a7bceab6c")
+		(property "Reference" "#PWR057"
+			(at 72.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad70b6bc-d4c9-41e5-b9bf-a7dbc097b4b7")
+		)
+		(instances
+			(project ""
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665/64921508-3e9f-434f-afb3-8d277d43284b"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:RC0402FR-07100RL")
+		(at 27.94 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad2d29ed-1fb9-40bd-84a6-ce7fb719f085")
+		(property "Reference" "R21"
+			(at 37.084 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0402FR-07100RL"
+			(at 36.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors:RESC1005X40N"
+			(at 41.91 168.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6_r.pdf"
+			(at 41.91 268.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO (PHYCOMP) - RC0402FR-07100RL - RES, THICK FILM, 100R, 1%, 0.0625W, 0402"
+			(at 27.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 41.91 468.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 41.91 568.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402FR-07100RL"
+			(at 41.91 668.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402FR-07100RL"
+			(at 41.91 768.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0402FR-07100RL?qs=V1yeUXFNrknwaJOOZ4yDtg%3D%3D"
+			(at 41.91 868.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0402FR-07100RL"
+			(at 41.91 968.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0402fr-07100rl/yageo"
+			(at 41.91 1068.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09f7e65c-3d16-4033-958b-c19fcae298e6")
+		)
+		(pin "1"
+			(uuid "2244663f-408e-46d3-a6ca-336454a2fd70")
+		)
+		(instances
+			(project ""
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665/64921508-3e9f-434f-afb3-8d277d43284b"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:RC0402FR-07100RL")
+		(at 27.94 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbc26fe6-8e65-4d74-b068-93c229dd3a89")
+		(property "Reference" "R19"
+			(at 37.084 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0402FR-07100RL"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors:RESC1005X40N"
+			(at 41.91 158.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6_r.pdf"
+			(at 41.91 258.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO (PHYCOMP) - RC0402FR-07100RL - RES, THICK FILM, 100R, 1%, 0.0625W, 0402"
+			(at 27.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 41.91 458.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 41.91 558.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402FR-07100RL"
+			(at 41.91 658.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402FR-07100RL"
+			(at 41.91 758.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0402FR-07100RL?qs=V1yeUXFNrknwaJOOZ4yDtg%3D%3D"
+			(at 41.91 858.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0402FR-07100RL"
+			(at 41.91 958.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0402fr-07100rl/yageo"
+			(at 41.91 1058.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "567441ee-98f1-42ea-9bfd-328684a75806")
+		)
+		(pin "1"
+			(uuid "93a55b87-10c1-4ef2-b8d3-34924dbd7100")
+		)
+		(instances
+			(project ""
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665/64921508-3e9f-434f-afb3-8d277d43284b"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:RC0402FR-07100RL")
+		(at 27.94 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0828690-2cab-4df5-aec9-14bab4927d7e")
+		(property "Reference" "R18"
+			(at 36.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0402FR-07100RL"
+			(at 36.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors:RESC1005X40N"
+			(at 41.91 153.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6_r.pdf"
+			(at 41.91 253.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO (PHYCOMP) - RC0402FR-07100RL - RES, THICK FILM, 100R, 1%, 0.0625W, 0402"
+			(at 27.94 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 41.91 453.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 41.91 553.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402FR-07100RL"
+			(at 41.91 653.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402FR-07100RL"
+			(at 41.91 753.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0402FR-07100RL?qs=V1yeUXFNrknwaJOOZ4yDtg%3D%3D"
+			(at 41.91 853.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0402FR-07100RL"
+			(at 41.91 953.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0402fr-07100rl/yageo"
+			(at 41.91 1053.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f56066b9-2817-4bfc-994a-a17c9bbf0429")
+		)
+		(pin "2"
+			(uuid "8c4aa445-ac61-4bde-9048-9910047c4232")
+		)
+		(instances
+			(project ""
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665/64921508-3e9f-434f-afb3-8d277d43284b"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:RC0402FR-07100RL")
+		(at 27.94 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c11fb807-829d-445f-bfbe-b2a733898599")
+		(property "Reference" "R20"
+			(at 36.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0402FR-07100RL"
+			(at 36.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors:RESC1005X40N"
+			(at 41.91 163.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6_r.pdf"
+			(at 41.91 263.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO (PHYCOMP) - RC0402FR-07100RL - RES, THICK FILM, 100R, 1%, 0.0625W, 0402"
+			(at 27.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 41.91 463.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 41.91 563.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402FR-07100RL"
+			(at 41.91 663.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402FR-07100RL"
+			(at 41.91 763.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0402FR-07100RL?qs=V1yeUXFNrknwaJOOZ4yDtg%3D%3D"
+			(at 41.91 863.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0402FR-07100RL"
+			(at 41.91 963.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0402fr-07100rl/yageo"
+			(at 41.91 1063.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a47f7ba3-22b6-46b0-a26b-39ab157da4bc")
+		)
+		(pin "2"
+			(uuid "75c53fa5-463c-47e0-bcf6-3e2be8136e3c")
+		)
+		(instances
+			(project ""
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665/64921508-3e9f-434f-afb3-8d277d43284b"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:CC0603KRX7R9BB472")
+		(at 90.17 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c761fa72-3f9c-4697-8085-31335f8f8708")
+		(property "Reference" "C8"
+			(at 93.98 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB472"
+			(at 95.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitors:CAPC1608X90N"
+			(at -6.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/CC0603KRX7R9BB472.pdf"
+			(at -106.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO - CC0603KRX7R9BB472 - SMD Multilayer Ceramic Capacitor, 4700 pF, 50 V, 0603 [1608 Metric], +/- 10%, X7R, CC Series"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at -306.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -406.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB472"
+			(at -506.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-C0603KRX7R9BB472"
+			(at -606.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/CC0603KRX7R9BB472?qs=AgBp2OyFlx8KimR0sSBPMg%3D%3D"
+			(at -706.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CC0603KRX7R9BB472"
+			(at -806.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cc0603krx7r9bb472/yageo?region=nac"
+			(at -906.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9dadd3f-8d8b-4c39-81d3-ce3364eaa868")
+		)
+		(pin "1"
+			(uuid "8ac2c1f6-56d3-4e81-9e56-09d034ddeb67")
+		)
+		(instances
+			(project ""
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665/64921508-3e9f-434f-afb3-8d277d43284b"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:RC0603FR-0710KL")
+		(at 36.83 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df41ec3b-f1b9-4367-b900-42bc3845a353")
+		(property "Reference" "R24"
+			(at 45.974 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0603FR-0710KL"
+			(at 45.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors:RESC1608X55N"
+			(at 50.8 205.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+			(at 50.8 305.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 10k"
+			(at 36.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 50.8 505.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 50.8 605.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
+			(at 50.8 705.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-0710KL"
+			(at 50.8 805.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D"
+			(at 50.8 905.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0603FR-0710KL"
+			(at 50.8 1005.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-0710kl/yageo?region=nac"
+			(at 50.8 1105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb25ed72-dc58-48c5-931a-92e3ddeafdd4")
+		)
+		(pin "2"
+			(uuid "2447f573-5b9a-4413-a99a-f6a687414766")
+		)
+		(instances
+			(project ""
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665/64921508-3e9f-434f-afb3-8d277d43284b"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:RC0603FR-0710KL")
+		(at 36.83 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6272f73-67cb-4ac9-9463-e7733bf1e5e8")
+		(property "Reference" "R25"
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0603FR-0710KL"
+			(at 45.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors:RESC1608X55N"
+			(at 50.8 210.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+			(at 50.8 310.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yageo RC Series Thick Film Surface Mount Resistor 0603 Case 10k"
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 50.8 510.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 50.8 610.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
+			(at 50.8 710.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-0710KL"
+			(at 50.8 810.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D"
+			(at 50.8 910.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0603FR-0710KL"
+			(at 50.8 1010.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-0710kl/yageo?region=nac"
+			(at 50.8 1110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5d54745-83f3-4394-90ec-1cf293f4ff96")
+		)
+		(pin "2"
+			(uuid "0ce75fc1-6474-4619-9391-fb0a2afcc180")
+		)
+		(instances
+			(project ""
+				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665/64921508-3e9f-434f-afb3-8d277d43284b"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -1890,7 +5263,7 @@
 	)
 	(symbol
 		(lib_id "Resistors:RC0603JR-072K2L")
-		(at 35.56 59.69 270)
+		(at 35.56 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1899,7 +5272,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe04e264-06cb-4c78-a631-a8223dd37c23")
 		(property "Reference" "R13"
-			(at 38.1 67.3099 90)
+			(at 38.1 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +5281,7 @@
 			)
 		)
 		(property "Value" "RC0603JR-072K2L"
-			(at 38.1 69.8499 90)
+			(at 38.1 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +5291,7 @@
 			)
 		)
 		(property "Footprint" "Resistors:RESC1608X55N"
-			(at -60.63 73.66 0)
+			(at -60.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1928,7 +5301,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
-			(at -160.63 73.66 0)
+			(at -160.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +5311,7 @@
 			)
 		)
 		(property "Description" "RESISTOR, 0603 2.2K Ohms +/-5% 1/10 W"
-			(at 35.56 59.69 0)
+			(at 35.56 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +5320,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at -360.63 73.66 0)
+			(at -360.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +5330,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at -460.63 73.66 0)
+			(at -460.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +5340,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603JR-072K2L"
-			(at -560.63 73.66 0)
+			(at -560.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +5350,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603JR-072K2L"
-			(at -660.63 73.66 0)
+			(at -660.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +5360,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603JR-072K2L?qs=%2F9ZTgpVJnN4N31C%252B33L1Sw%3D%3D"
-			(at -760.63 73.66 0)
+			(at -760.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +5370,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RC0603JR-072K2L"
-			(at -860.63 73.66 0)
+			(at -860.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,7 +5380,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603jr-072k2l/yageo"
-			(at -960.63 73.66 0)
+			(at -960.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
