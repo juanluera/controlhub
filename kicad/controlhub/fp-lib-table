@@ -6,5 +6,5 @@
   (lib (name "Inductors")(type "KiCad")(uri "${KIPRJMOD}/../../libs/footprints/Inductors.pretty")(options "")(descr ""))
   (lib (name "Drivers")(type "KiCad")(uri "${KIPRJMOD}/../../libs/footprints/Drivers.pretty")(options "")(descr ""))
   (lib (name "Mosfets")(type "KiCad")(uri "${KIPRJMOD}/../../libs/footprints/Mosfets.pretty")(options "")(descr ""))
-  (lib (name "DevKits")(type "KiCad")(uri "C:/Users/Angel/projects/controlhub/libs/footprints/DevKits.pretty")(options "")(descr ""))
+  (lib (name "DevKits")(type "KiCad")(uri "${KIPRJMOD}/../../libs/footprints/DevKits.pretty")(options "")(descr ""))
 )

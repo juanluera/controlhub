@@ -13,7 +13,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 63.5 102.87)
+		(at 189.23 109.22)
 		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29,7 +29,7 @@
 		)
 		(uuid "14ea8e61-8e65-415a-aef4-444b25cd536e")
 		(property "Sheetname" "Indicators"
-			(at 63.5 102.1584 0)
+			(at 189.23 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38,7 +38,7 @@
 			)
 		)
 		(property "Sheetfile" "Indicators.kicad_sch"
-			(at 63.5 118.6946 0)
+			(at 189.23 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55,7 +55,7 @@
 		)
 	)
 	(sheet
-		(at 134.62 38.1)
+		(at 33.02 54.61)
 		(size 35.56 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -71,7 +71,7 @@
 		)
 		(uuid "4fbfd26d-56f4-4375-bd3e-d29fbaad9eed")
 		(property "Sheetname" "BuckConverter"
-			(at 134.62 37.3884 0)
+			(at 33.02 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80,7 +80,7 @@
 			)
 		)
 		(property "Sheetfile" "BuckConverter.kicad_sch"
-			(at 134.62 59.0046 0)
+			(at 33.02 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97,7 +97,7 @@
 		)
 	)
 	(sheet
-		(at 77.47 41.91)
+		(at 187.96 60.96)
 		(size 26.67 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -113,7 +113,7 @@
 		)
 		(uuid "5fdbac9f-f658-4a00-a70d-cfad4fe5961e")
 		(property "Sheetname" "MotorDriver"
-			(at 77.47 41.1984 0)
+			(at 187.96 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122,12 +122,72 @@
 			)
 		)
 		(property "Sheetfile" "motordriver.kicad_sch"
-			(at 77.47 57.7346 0)
+			(at 187.96 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "A0" input
+			(at 214.63 63.5 0)
+			(uuid "49505c03-ff05-4e15-8a98-189b017934f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A1" input
+			(at 214.63 66.04 0)
+			(uuid "ad4825e7-a76e-4846-b717-811ad61d1675")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN1" input
+			(at 214.63 68.58 0)
+			(uuid "492db7b1-9226-44ea-8b0d-004f20dfec28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN2" input
+			(at 214.63 71.12 0)
+			(uuid "492dcb7b-a635-4d3c-82a9-03dbfa32885a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IPROPI" output
+			(at 187.96 63.5 180)
+			(uuid "471489f7-c9e9-4fba-8b5f-5ccc0847f20d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RC_OUT" output
+			(at 187.96 66.04 180)
+			(uuid "77b755ff-d225-4599-ba24-23fa3a312be7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -139,7 +199,7 @@
 		)
 	)
 	(sheet
-		(at 156.21 85.09)
+		(at 121.92 54.61)
 		(size 31.75 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -155,7 +215,7 @@
 		)
 		(uuid "64921508-3e9f-434f-afb3-8d277d43284b")
 		(property "Sheetname" "MCU"
-			(at 156.21 84.3784 0)
+			(at 121.92 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164,7 +224,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 156.21 107.2646 0)
+			(at 121.92 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -176,132 +236,6 @@
 			(project "controlhub"
 				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 36.83 62.23)
-		(size 26.67 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "69943119-d6be-40ce-897b-194a2d80c196")
-		(property "Sheetname" "MotorDriver2"
-			(at 36.83 61.5184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "motordriver.kicad_sch"
-			(at 36.83 78.0546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "controlhub"
-				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 16.51 186.69)
-		(size 13.97 8.89)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "bc3e1279-1980-4531-9aca-cf1688bab914")
-		(property "Sheetname" "Regulator"
-			(at 16.51 185.9784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "regulator.kicad_sch"
-			(at 16.51 196.1646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "controlhub"
-				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 36.83 39.37)
-		(size 26.67 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "be13a64d-3893-4854-b321-104e725ec0f7")
-		(property "Sheetname" "MotorDriver1"
-			(at 36.83 38.6584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "motordriver.kicad_sch"
-			(at 36.83 55.1946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "controlhub"
-				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665"
-					(page "7")
 				)
 			)
 		)
@@ -344,48 +278,6 @@
 			(project "controlhub"
 				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 77.47 63.5)
-		(size 26.67 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "eee69926-6afc-49f8-acf5-10d5f35a93ff")
-		(property "Sheetname" "MotorDriver3"
-			(at 77.47 62.7884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "motordriver.kicad_sch"
-			(at 77.47 79.3246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "controlhub"
-				(path "/78f9b8b9-94ed-46bb-ab2b-797c156bf665"
-					(page "9")
 				)
 			)
 		)

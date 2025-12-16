@@ -616,10 +616,6 @@
       "Root"
     ],
     [
-      "bc3e1279-1980-4531-9aca-cf1688bab914",
-      "Regulator"
-    ],
-    [
       "14ea8e61-8e65-415a-aef4-444b25cd536e",
       "Indicators"
     ],
@@ -632,24 +628,12 @@
       "ServosDriver"
     ],
     [
-      "5fdbac9f-f658-4a00-a70d-cfad4fe5961e",
-      "MotorDriver"
-    ],
-    [
       "4fbfd26d-56f4-4375-bd3e-d29fbaad9eed",
       "BuckConverter"
     ],
     [
-      "be13a64d-3893-4854-b321-104e725ec0f7",
-      "MotorDriver1"
-    ],
-    [
-      "69943119-d6be-40ce-897b-194a2d80c196",
-      "MotorDriver2"
-    ],
-    [
-      "eee69926-6afc-49f8-acf5-10d5f35a93ff",
-      "MotorDriver3"
+      "5fdbac9f-f658-4a00-a70d-cfad4fe5961e",
+      "MotorDriver"
     ]
   ],
   "text_variables": {}
